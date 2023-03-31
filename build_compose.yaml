@@ -9,4 +9,5 @@ services:
       - /bin/bash
       - -c
       - |
-        cd /app && npm install
+        cd /app
+        npm install
