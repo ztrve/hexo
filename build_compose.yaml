@@ -8,7 +8,6 @@ services:
     command: |
       - /bin/bash
       - -c
-      - |
-        cd /app
-        npm install
-        npm run build
+      - cd /app
+      - npm install
+      - npm run build
