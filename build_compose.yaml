@@ -5,3 +5,10 @@ services:
     image: node:19-alpine
     volumes:
       - ./:/app:rw
+    command: |
+      - /bin/bash
+      - -c
+      - |
+        cd /app
+        npm install
+        npm run build
