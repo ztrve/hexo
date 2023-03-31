@@ -1,0 +1,7 @@
+version: '2'
+services:
+  nodejs:
+    container_name: nodejs
+    image: node:19-alpine
+    volumes:
+      - ./:/app:rw
