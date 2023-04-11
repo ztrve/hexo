@@ -20,4 +20,4 @@
 </div>
 {% endif %}
 
-<a href="http://www.beian.miit.gov.cn/"  style="color:#f72b07" target="_blank">浙ICP备20019550号-1</a>
+<a href="https://beian.miit.gov.cn/#/Integrated/recordQuery"  style="color:#f72b07" target="_blank">浙ICP备20009565号-1</a>
